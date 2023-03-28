@@ -1,0 +1,132 @@
+/* ! Задание 1: Нарисуй три кнопки с любыми надписями. Раскрась их в разные цвета с HEX-кодами. */
+/* .btn {
+  background: #2cdbcb;
+}
+
+.btn-pink {
+  background: #cd36b1;
+}
+.btn-green {
+  background: #2ec92e;
+}
+
+.btn-yellow {
+  background: #f6f606;
+} */
+
+/* ! Задание 2: Нарисуйте 4 квадрта разного цвета */
+/* .square {
+  width: 100px;
+  height: 100px;
+  background: #1795fe;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.square1 {
+  width: 50px;
+  height: 50px;
+  background: #15f409;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.square2 {
+  width: 50px;
+  height: 50px;
+  background: rgb(221, 7, 221);
+  margin-bottom: 15px;
+}
+
+.square3 {
+  width: 50px;
+  height: 50px;
+  background: black;
+  margin-left: 30px;
+} */
+
+/*! overflow: hidden; чтобы margin-top не схлопнулся ("схлопывание маргинов")*/
+/* .big-square {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  margin-top: 15px;
+  overflow: hidden; 
+}
+
+.middle-square {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.small-square {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  margin-left: 30px;
+} */
+/* ! Задание 3 */
+/* .square {
+  width: 300px;
+  height: 300px;
+  background: #000000;
+  overflow: hidden;
+}
+.big-square {
+  margin: 100px;
+  height: 100px;
+  background: #b71b1b;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.middle-square {
+  margin: 50px;
+  height: 50px;
+  background: yellow;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.small-square {
+  margin: 20px;
+  height: 20px;
+  background: rgb(0, 255, 145);
+  margin-left: 40px;
+  margin-bottom: 5px;
+} */
+
+/* ! == Часть 4.1. Рисуем Солнце, фон и кнопку */
+.sky {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #65a9f0, #ebb2b1);
+  overflow: hidden;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f5e555;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c174f8;
+  color: white;
+  margin-left: 10px;
+}
